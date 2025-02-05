@@ -11,10 +11,10 @@ export default function Home() {
     <Router>
         <Routes>
             <Route path="/" element = {<Library/>} />
-            <Route path="/" element = {<Feed/>} />
-            <Route path="/" element = {<Trending/>} />
-            <Route path="/" element = {<Player/>} />
-            <Route path="/" element = {<Favourites/>} />
+            <Route path="/feed" element = {<Feed/>} />
+            <Route path="/trending" element = {<Trending/>} />
+            <Route path="/player" element = {<Player/>} />
+            <Route path="/favourites" element = {<Favourites/>} />
         </Routes>
     </Router>
   )
